@@ -1,0 +1,34 @@
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Local editor and operating system files
+.idea/
+.vscode/
+image_to_braille.code-workspace
+.DS_Store
+Thumbs.db
+
+# Local input images and generated text output
+/workspace/
+*.jpg
+*.jpeg
+*.png
+*.webp
+*.bmp
+*.gif
+*.tif
+*.tiff
+*.avif
+*.heic
+*.txt
+!requirements.txt
+
+# Build artifacts and local logs
+build/
+dist/
+*.egg-info/
+*.log
